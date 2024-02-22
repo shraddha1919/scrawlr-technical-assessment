@@ -1,0 +1,17 @@
+.upvote-container {
+  align-items: center;
+  border-radius: 25%;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  margin-right: 20px;
+  width: 60px;
+}
+
+.upvote-selected {
+  background-color: #e5e8fd;
+}
+
+.upvote-unselected {
+  background-color: #f4f6f8;
+}
