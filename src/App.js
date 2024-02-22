@@ -3,10 +3,12 @@ import ListContext from './listContext.js';
 import UpvoteList from './components/upvote-list/UpvoteList.js';
 import './App.css';
 
-function App() {
+const App = () => {
   const list = useContext(ListContext);
+  // state to maintain the number of upvote container list along with selection state
   const [upVoteItemList, setUpVoteItemList] = useState(list);
 
+  // handler method to update context list with the latest selection state
   const changeHandler = (item) => {
     const newList = upVoteItemList;
     newList[item.id - 1] = item;
