@@ -2,10 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This application has default data in React Context to generate the upvote container list.
-Each container list has a "plus button". Upon click of plus button, upvote items get added to the respective container list.
-Data including the selection state is persisted in localStorage.
-Unit test covers the functionality of adding an upvote item on plus button click and selection state change on click of upvote item.
+- This application has default data in React Context to generate the upvote container list.
+- Each container list has a "plus button". Upon click of plus button, upvote items get added to the respective container list.
+- Data including the selection state is persisted in localStorage.
+- Unit test covers the functionality of adding an upvote item on plus button click and selection state change on click of upvote item.
 
 ## Available Scripts
 
